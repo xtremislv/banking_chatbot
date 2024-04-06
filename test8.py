@@ -18,7 +18,7 @@ def get_response(usernames, user_message):
     client = instructor.patch(
         OpenAI(
             base_url="http://localhost:11434/v1",
-            api_key="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",
+            api_key="your API key",
         ),
         mode=instructor.Mode.JSON,
     )
